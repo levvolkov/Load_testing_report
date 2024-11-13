@@ -1,0 +1,621 @@
+2024-11-13 20:41:56,932 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-11-13 20:41:56,946 INFO o.a.j.JMeter: Loading user properties from: /Applications/apache-jmeter-5.6.3/bin/user.properties
+2024-11-13 20:41:56,946 INFO o.a.j.JMeter: Loading system properties from: /Applications/apache-jmeter-5.6.3/bin/system.properties
+2024-11-13 20:41:56,949 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-11-13 20:41:56,950 INFO o.a.j.JMeter: Version 5.6.3
+2024-11-13 20:41:56,950 INFO o.a.j.JMeter: java.version=17.0.12
+2024-11-13 20:41:56,950 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-11-13 20:41:56,950 INFO o.a.j.JMeter: os.name=Mac OS X
+2024-11-13 20:41:56,950 INFO o.a.j.JMeter: os.arch=aarch64
+2024-11-13 20:41:56,950 INFO o.a.j.JMeter: os.version=15.1
+2024-11-13 20:41:56,950 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-11-13 20:41:56,950 INFO o.a.j.JMeter: java.awt.headless=true
+2024-11-13 20:41:56,950 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-11-13 20:41:56,950 INFO o.a.j.JMeter: Available Processors =10
+2024-11-13 20:41:56,955 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-11-13 20:41:56,955 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-11-13 20:41:56,955 INFO o.a.j.JMeter: JMeterHome=/Applications/apache-jmeter-5.6.3
+2024-11-13 20:41:56,955 INFO o.a.j.JMeter: user.dir  =/Users/levvolkov/Jenkins/workspace/jmeter-jenkins
+2024-11-13 20:41:56,955 INFO o.a.j.JMeter: PWD       =/Users/levvolkov/Jenkins/workspace/jmeter-jenkins
+2024-11-13 20:41:56,957 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: Nitrocellulose.local FullName: localhost
+2024-11-13 20:41:56,965 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/Users/levvolkov/Documents/Performance_testingQA79/Load_testing_report/jmeter/report_output'
+2024-11-13 20:41:56,967 INFO o.a.j.s.FileServer: Default base='/Users/levvolkov/Jenkins/workspace/jmeter-jenkins'
+2024-11-13 20:41:56,968 INFO o.a.j.s.FileServer: Set new base='/Users/levvolkov/Documents/Performance_testingQA79/Load_testing_report/jmeter'
+2024-11-13 20:41:57,069 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-11-13 20:41:57,084 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-11-13 20:41:57,085 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-11-13 20:41:57,087 INFO o.a.j.s.SaveService: Loading file: /Users/levvolkov/Documents/Performance_testingQA79/Load_testing_report/jmeter/wp_db_test.jmx
+2024-11-13 20:41:57,126 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-13 20:41:57,126 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-13 20:41:57,126 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-13 20:41:57,126 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-13 20:41:57,126 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-11-13 20:41:57,126 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-11-13 20:41:57,138 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-11-13 20:41:57,138 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-11-13 20:41:57,139 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-11-13 20:41:57,139 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-11-13 20:41:57,148 INFO o.a.j.JMeter: Creating summariser <summary>
+2024-11-13 20:41:57,150 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2024-11-13 20:41:57,150 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: /Users/levvolkov/Documents/Performance_testingQA79/Load_testing_report/jmeter/test_results.jtl
+2024-11-13 20:41:57,150 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /Applications/apache-jmeter-5.6.3/bin/reportgenerator.properties
+2024-11-13 20:41:57,150 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2024-11-13 20:41:57,153 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2024-11-13 20:41:57,154 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2024-11-13 20:41:57,154 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2024-11-13 20:41:57,154 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2024-11-13 20:41:57,154 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2024-11-13 20:41:57,154 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2024-11-13 20:41:57,154 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2024-11-13 20:41:57,154 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2024-11-13 20:41:57,155 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2024-11-13 20:41:57,157 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2024-11-13 20:41:57,157 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2024-11-13 20:41:57,157 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2024-11-13 20:41:57,157 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2024-11-13 20:41:57,157 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2024-11-13 20:41:57,157 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2024-11-13 20:41:57,157 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2024-11-13 20:41:57,157 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2024-11-13 20:41:57,158 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2024-11-13 20:41:57,158 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2024-11-13 20:41:57,158 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2024-11-13 20:41:57,158 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2024-11-13 20:41:57,158 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2024-11-13 20:41:57,158 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2024-11-13 20:41:57,158 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2024-11-13 20:41:57,158 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2024-11-13 20:41:57,165 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-11-13 20:41:57,165 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-11-13 20:41:57,165 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-11-13 20:41:57,167 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-11-13 20:41:57,167 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-11-13 20:41:57,200 INFO o.a.j.r.ClassFinder: Will scan jar /Applications/apache-jmeter-5.6.3/lib/ext/jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-11-13 20:41:57,203 INFO o.a.j.r.ClassFinder: Will scan jar /Applications/apache-jmeter-5.6.3/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-11-13 20:41:57,247 INFO o.a.j.r.ClassFinder: Will scan jar /Applications/apache-jmeter-5.6.3/lib/ext/jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-11-13 20:41:57,286 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient and queue capacity: 5000
+2024-11-13 20:41:57,287 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient
+2024-11-13 20:41:57,403 INFO o.a.j.JMeter: Running test (1731519717403)
+2024-11-13 20:41:57,417 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : writers
+2024-11-13 20:41:57,417 INFO o.a.j.e.StandardJMeterEngine: Starting 150 threads for group writers.
+2024-11-13 20:41:57,417 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-11-13 20:41:57,417 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=150 ramp-up=600 delayedStart=false
+2024-11-13 20:41:57,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-1
+2024-11-13 20:41:57,446 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-11-13 20:41:57,447 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-11-13 20:41:57,669 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-1
+2024-11-13 20:41:57,669 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-1
+2024-11-13 20:42:01,424 INFO o.a.j.t.JMeterThread: Thread started: writers 1-2
+2024-11-13 20:42:01,483 INFO o.a.j.r.Summariser: summary +     11 in 00:00:04 =    2.7/s Avg:    26 Min:     5 Max:   173 Err:     0 (0.00%) Active: 1 Started: 2 Finished: 1
+2024-11-13 20:42:01,595 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-2
+2024-11-13 20:42:01,595 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-2
+2024-11-13 20:42:05,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-3
+2024-11-13 20:42:05,560 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-3
+2024-11-13 20:42:05,560 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-3
+2024-11-13 20:42:09,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-4
+2024-11-13 20:42:09,655 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-4
+2024-11-13 20:42:09,656 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-4
+2024-11-13 20:42:13,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-5
+2024-11-13 20:42:13,585 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-5
+2024-11-13 20:42:13,586 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-5
+2024-11-13 20:42:17,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-6
+2024-11-13 20:42:17,525 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-6
+2024-11-13 20:42:17,525 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-6
+2024-11-13 20:42:21,417 INFO o.a.j.t.JMeterThread: Thread started: writers 1-7
+2024-11-13 20:42:21,571 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-7
+2024-11-13 20:42:21,571 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-7
+2024-11-13 20:42:25,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-8
+2024-11-13 20:42:25,613 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-8
+2024-11-13 20:42:25,613 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-8
+2024-11-13 20:42:29,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-9
+2024-11-13 20:42:29,616 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-9
+2024-11-13 20:42:29,616 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-9
+2024-11-13 20:42:33,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-10
+2024-11-13 20:42:33,457 INFO o.a.j.r.Summariser: summary +     80 in 00:00:32 =    2.5/s Avg:    15 Min:     5 Max:    59 Err:     0 (0.00%) Active: 1 Started: 10 Finished: 9
+2024-11-13 20:42:33,458 INFO o.a.j.r.Summariser: summary =     91 in 00:00:36 =    2.5/s Avg:    17 Min:     5 Max:   173 Err:     0 (0.00%)
+2024-11-13 20:42:33,552 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-10
+2024-11-13 20:42:33,552 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-10
+2024-11-13 20:42:37,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-11
+2024-11-13 20:42:37,542 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-11
+2024-11-13 20:42:37,542 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-11
+2024-11-13 20:42:41,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-12
+2024-11-13 20:42:41,604 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-12
+2024-11-13 20:42:41,604 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-12
+2024-11-13 20:42:45,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-13
+2024-11-13 20:42:45,518 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-13
+2024-11-13 20:42:45,518 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-13
+2024-11-13 20:42:49,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-14
+2024-11-13 20:42:49,564 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-14
+2024-11-13 20:42:49,564 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-14
+2024-11-13 20:42:53,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-15
+2024-11-13 20:42:53,573 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-15
+2024-11-13 20:42:53,573 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-15
+2024-11-13 20:42:57,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-16
+2024-11-13 20:42:57,639 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-16
+2024-11-13 20:42:57,639 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-16
+2024-11-13 20:43:01,417 INFO o.a.j.t.JMeterThread: Thread started: writers 1-17
+2024-11-13 20:43:01,448 INFO o.a.j.r.Summariser: summary +     70 in 00:00:28 =    2.5/s Avg:    14 Min:     4 Max:    62 Err:     0 (0.00%) Active: 1 Started: 17 Finished: 16
+2024-11-13 20:43:01,452 INFO o.a.j.r.Summariser: summary =    161 in 00:01:04 =    2.5/s Avg:    15 Min:     4 Max:   173 Err:     0 (0.00%)
+2024-11-13 20:43:01,533 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-17
+2024-11-13 20:43:01,533 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-17
+2024-11-13 20:43:05,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-18
+2024-11-13 20:43:05,540 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-18
+2024-11-13 20:43:05,540 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-18
+2024-11-13 20:43:09,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-19
+2024-11-13 20:43:09,515 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-19
+2024-11-13 20:43:09,515 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-19
+2024-11-13 20:43:13,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-20
+2024-11-13 20:43:13,579 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-20
+2024-11-13 20:43:13,579 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-20
+2024-11-13 20:43:17,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-21
+2024-11-13 20:43:17,515 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-21
+2024-11-13 20:43:17,515 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-21
+2024-11-13 20:43:21,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-22
+2024-11-13 20:43:21,511 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-22
+2024-11-13 20:43:21,511 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-22
+2024-11-13 20:43:25,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-23
+2024-11-13 20:43:25,556 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-23
+2024-11-13 20:43:25,557 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-23
+2024-11-13 20:43:29,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-24
+2024-11-13 20:43:29,596 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-24
+2024-11-13 20:43:29,596 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-24
+2024-11-13 20:43:33,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-25
+2024-11-13 20:43:33,464 INFO o.a.j.r.Summariser: summary +     80 in 00:00:32 =    2.5/s Avg:    11 Min:     3 Max:    53 Err:     0 (0.00%) Active: 1 Started: 25 Finished: 24
+2024-11-13 20:43:33,466 INFO o.a.j.r.Summariser: summary =    241 in 00:01:36 =    2.5/s Avg:    14 Min:     3 Max:   173 Err:     0 (0.00%)
+2024-11-13 20:43:33,528 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-25
+2024-11-13 20:43:33,528 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-25
+2024-11-13 20:43:37,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-26
+2024-11-13 20:43:37,547 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-26
+2024-11-13 20:43:37,547 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-26
+2024-11-13 20:43:41,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-27
+2024-11-13 20:43:41,539 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-27
+2024-11-13 20:43:41,540 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-27
+2024-11-13 20:43:45,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-28
+2024-11-13 20:43:45,517 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-28
+2024-11-13 20:43:45,518 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-28
+2024-11-13 20:43:49,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-29
+2024-11-13 20:43:49,529 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-29
+2024-11-13 20:43:49,530 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-29
+2024-11-13 20:43:53,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-30
+2024-11-13 20:43:53,544 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-30
+2024-11-13 20:43:53,545 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-30
+2024-11-13 20:43:57,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-31
+2024-11-13 20:43:57,551 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-31
+2024-11-13 20:43:57,552 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-31
+2024-11-13 20:44:01,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-32
+2024-11-13 20:44:01,463 INFO o.a.j.r.Summariser: summary +     70 in 00:00:28 =    2.5/s Avg:    10 Min:     3 Max:    48 Err:     0 (0.00%) Active: 1 Started: 32 Finished: 31
+2024-11-13 20:44:01,465 INFO o.a.j.r.Summariser: summary =    311 in 00:02:04 =    2.5/s Avg:    13 Min:     3 Max:   173 Err:     0 (0.00%)
+2024-11-13 20:44:01,556 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-32
+2024-11-13 20:44:01,556 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-32
+2024-11-13 20:44:05,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-33
+2024-11-13 20:44:05,568 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-33
+2024-11-13 20:44:05,569 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-33
+2024-11-13 20:44:09,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-34
+2024-11-13 20:44:09,540 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-34
+2024-11-13 20:44:09,541 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-34
+2024-11-13 20:44:13,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-35
+2024-11-13 20:44:13,532 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-35
+2024-11-13 20:44:13,532 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-35
+2024-11-13 20:44:17,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-36
+2024-11-13 20:44:17,514 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-36
+2024-11-13 20:44:17,515 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-36
+2024-11-13 20:44:21,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-37
+2024-11-13 20:44:21,580 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-37
+2024-11-13 20:44:21,581 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-37
+2024-11-13 20:44:25,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-38
+2024-11-13 20:44:25,523 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-38
+2024-11-13 20:44:25,523 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-38
+2024-11-13 20:44:29,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-39
+2024-11-13 20:44:29,543 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-39
+2024-11-13 20:44:29,544 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-39
+2024-11-13 20:44:33,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-40
+2024-11-13 20:44:33,479 INFO o.a.j.r.Summariser: summary +     80 in 00:00:32 =    2.5/s Avg:    11 Min:     3 Max:    61 Err:     0 (0.00%) Active: 1 Started: 40 Finished: 39
+2024-11-13 20:44:33,482 INFO o.a.j.r.Summariser: summary =    391 in 00:02:36 =    2.5/s Avg:    13 Min:     3 Max:   173 Err:     0 (0.00%)
+2024-11-13 20:44:33,582 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-40
+2024-11-13 20:44:33,583 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-40
+2024-11-13 20:44:37,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-41
+2024-11-13 20:44:37,549 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-41
+2024-11-13 20:44:37,550 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-41
+2024-11-13 20:44:41,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-42
+2024-11-13 20:44:41,531 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-42
+2024-11-13 20:44:41,532 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-42
+2024-11-13 20:44:45,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-43
+2024-11-13 20:44:45,524 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-43
+2024-11-13 20:44:45,524 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-43
+2024-11-13 20:44:49,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-44
+2024-11-13 20:44:49,534 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-44
+2024-11-13 20:44:49,535 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-44
+2024-11-13 20:44:53,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-45
+2024-11-13 20:44:53,534 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-45
+2024-11-13 20:44:53,534 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-45
+2024-11-13 20:44:57,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-46
+2024-11-13 20:44:57,528 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-46
+2024-11-13 20:44:57,529 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-46
+2024-11-13 20:45:01,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-47
+2024-11-13 20:45:01,448 INFO o.a.j.r.Summariser: summary +     70 in 00:00:28 =    2.5/s Avg:    10 Min:     3 Max:    51 Err:     0 (0.00%) Active: 1 Started: 47 Finished: 46
+2024-11-13 20:45:01,449 INFO o.a.j.r.Summariser: summary =    461 in 00:03:04 =    2.5/s Avg:    12 Min:     3 Max:   173 Err:     0 (0.00%)
+2024-11-13 20:45:01,507 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-47
+2024-11-13 20:45:01,507 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-47
+2024-11-13 20:45:05,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-48
+2024-11-13 20:45:05,538 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-48
+2024-11-13 20:45:05,539 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-48
+2024-11-13 20:45:09,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-49
+2024-11-13 20:45:09,565 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-49
+2024-11-13 20:45:09,565 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-49
+2024-11-13 20:45:13,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-50
+2024-11-13 20:45:13,516 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-50
+2024-11-13 20:45:13,517 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-50
+2024-11-13 20:45:17,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-51
+2024-11-13 20:45:17,523 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-51
+2024-11-13 20:45:17,523 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-51
+2024-11-13 20:45:21,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-52
+2024-11-13 20:45:21,514 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-52
+2024-11-13 20:45:21,514 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-52
+2024-11-13 20:45:25,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-53
+2024-11-13 20:45:25,534 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-53
+2024-11-13 20:45:25,534 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-53
+2024-11-13 20:45:29,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-54
+2024-11-13 20:45:29,526 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-54
+2024-11-13 20:45:29,527 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-54
+2024-11-13 20:45:33,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-55
+2024-11-13 20:45:33,455 INFO o.a.j.r.Summariser: summary +     80 in 00:00:32 =    2.5/s Avg:    10 Min:     3 Max:    39 Err:     0 (0.00%) Active: 1 Started: 55 Finished: 54
+2024-11-13 20:45:33,456 INFO o.a.j.r.Summariser: summary =    541 in 00:03:36 =    2.5/s Avg:    12 Min:     3 Max:   173 Err:     0 (0.00%)
+2024-11-13 20:45:33,511 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-55
+2024-11-13 20:45:33,511 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-55
+2024-11-13 20:45:37,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-56
+2024-11-13 20:45:37,479 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-56
+2024-11-13 20:45:37,480 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-56
+2024-11-13 20:45:41,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-57
+2024-11-13 20:45:41,533 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-57
+2024-11-13 20:45:41,533 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-57
+2024-11-13 20:45:45,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-58
+2024-11-13 20:45:45,530 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-58
+2024-11-13 20:45:45,530 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-58
+2024-11-13 20:45:49,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-59
+2024-11-13 20:45:49,562 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-59
+2024-11-13 20:45:49,562 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-59
+2024-11-13 20:45:53,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-60
+2024-11-13 20:45:53,545 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-60
+2024-11-13 20:45:53,546 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-60
+2024-11-13 20:45:57,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-61
+2024-11-13 20:45:57,518 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-61
+2024-11-13 20:45:57,518 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-61
+2024-11-13 20:46:01,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-62
+2024-11-13 20:46:01,456 INFO o.a.j.r.Summariser: summary +     70 in 00:00:28 =    2.5/s Avg:     9 Min:     3 Max:    44 Err:     0 (0.00%) Active: 1 Started: 62 Finished: 61
+2024-11-13 20:46:01,457 INFO o.a.j.r.Summariser: summary =    611 in 00:04:04 =    2.5/s Avg:    12 Min:     3 Max:   173 Err:     0 (0.00%)
+2024-11-13 20:46:01,522 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-62
+2024-11-13 20:46:01,522 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-62
+2024-11-13 20:46:05,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-63
+2024-11-13 20:46:05,514 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-63
+2024-11-13 20:46:05,515 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-63
+2024-11-13 20:46:09,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-64
+2024-11-13 20:46:09,542 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-64
+2024-11-13 20:46:09,542 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-64
+2024-11-13 20:46:13,424 INFO o.a.j.t.JMeterThread: Thread started: writers 1-65
+2024-11-13 20:46:13,485 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-65
+2024-11-13 20:46:13,486 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-65
+2024-11-13 20:46:17,424 INFO o.a.j.t.JMeterThread: Thread started: writers 1-66
+2024-11-13 20:46:17,553 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-66
+2024-11-13 20:46:17,555 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-66
+2024-11-13 20:46:21,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-67
+2024-11-13 20:46:21,562 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-67
+2024-11-13 20:46:21,562 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-67
+2024-11-13 20:46:25,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-68
+2024-11-13 20:46:25,529 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-68
+2024-11-13 20:46:25,529 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-68
+2024-11-13 20:46:29,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-69
+2024-11-13 20:46:29,530 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-69
+2024-11-13 20:46:29,530 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-69
+2024-11-13 20:46:33,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-70
+2024-11-13 20:46:33,460 INFO o.a.j.r.Summariser: summary +     80 in 00:00:32 =    2.5/s Avg:    10 Min:     3 Max:    44 Err:     0 (0.00%) Active: 1 Started: 70 Finished: 69
+2024-11-13 20:46:33,460 INFO o.a.j.r.Summariser: summary =    691 in 00:04:36 =    2.5/s Avg:    12 Min:     3 Max:   173 Err:     0 (0.00%)
+2024-11-13 20:46:33,576 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-70
+2024-11-13 20:46:33,576 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-70
+2024-11-13 20:46:37,417 INFO o.a.j.t.JMeterThread: Thread started: writers 1-71
+2024-11-13 20:46:37,552 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-71
+2024-11-13 20:46:37,553 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-71
+2024-11-13 20:46:41,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-72
+2024-11-13 20:46:41,515 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-72
+2024-11-13 20:46:41,515 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-72
+2024-11-13 20:46:45,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-73
+2024-11-13 20:46:45,486 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-73
+2024-11-13 20:46:45,487 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-73
+2024-11-13 20:46:49,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-74
+2024-11-13 20:46:49,525 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-74
+2024-11-13 20:46:49,526 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-74
+2024-11-13 20:46:53,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-75
+2024-11-13 20:46:53,583 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-75
+2024-11-13 20:46:53,587 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-75
+2024-11-13 20:46:57,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-76
+2024-11-13 20:46:57,583 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-76
+2024-11-13 20:46:57,583 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-76
+2024-11-13 20:47:01,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-77
+2024-11-13 20:47:01,444 INFO o.a.j.r.Summariser: summary +     70 in 00:00:28 =    2.5/s Avg:    11 Min:     4 Max:    59 Err:     0 (0.00%) Active: 1 Started: 77 Finished: 76
+2024-11-13 20:47:01,445 INFO o.a.j.r.Summariser: summary =    761 in 00:05:04 =    2.5/s Avg:    12 Min:     3 Max:   173 Err:     0 (0.00%)
+2024-11-13 20:47:01,505 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-77
+2024-11-13 20:47:01,505 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-77
+2024-11-13 20:47:05,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-78
+2024-11-13 20:47:05,556 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-78
+2024-11-13 20:47:05,557 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-78
+2024-11-13 20:47:09,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-79
+2024-11-13 20:47:09,567 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-79
+2024-11-13 20:47:09,567 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-79
+2024-11-13 20:47:13,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-80
+2024-11-13 20:47:13,517 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-80
+2024-11-13 20:47:13,517 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-80
+2024-11-13 20:47:17,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-81
+2024-11-13 20:47:17,517 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-81
+2024-11-13 20:47:17,518 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-81
+2024-11-13 20:47:21,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-82
+2024-11-13 20:47:21,521 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-82
+2024-11-13 20:47:21,522 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-82
+2024-11-13 20:47:25,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-83
+2024-11-13 20:47:25,529 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-83
+2024-11-13 20:47:25,530 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-83
+2024-11-13 20:47:29,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-84
+2024-11-13 20:47:29,563 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-84
+2024-11-13 20:47:29,564 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-84
+2024-11-13 20:47:33,424 INFO o.a.j.t.JMeterThread: Thread started: writers 1-85
+2024-11-13 20:47:33,473 INFO o.a.j.r.Summariser: summary +     80 in 00:00:32 =    2.5/s Avg:    11 Min:     4 Max:    48 Err:     0 (0.00%) Active: 1 Started: 85 Finished: 84
+2024-11-13 20:47:33,473 INFO o.a.j.r.Summariser: summary =    841 in 00:05:36 =    2.5/s Avg:    11 Min:     3 Max:   173 Err:     0 (0.00%)
+2024-11-13 20:47:33,564 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-85
+2024-11-13 20:47:33,565 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-85
+2024-11-13 20:47:37,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-86
+2024-11-13 20:47:37,530 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-86
+2024-11-13 20:47:37,530 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-86
+2024-11-13 20:47:41,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-87
+2024-11-13 20:47:41,512 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-87
+2024-11-13 20:47:41,512 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-87
+2024-11-13 20:47:45,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-88
+2024-11-13 20:47:45,513 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-88
+2024-11-13 20:47:45,513 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-88
+2024-11-13 20:47:49,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-89
+2024-11-13 20:47:49,505 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-89
+2024-11-13 20:47:49,506 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-89
+2024-11-13 20:47:53,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-90
+2024-11-13 20:47:53,557 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-90
+2024-11-13 20:47:53,557 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-90
+2024-11-13 20:47:57,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-91
+2024-11-13 20:47:57,507 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-91
+2024-11-13 20:47:57,507 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-91
+2024-11-13 20:48:01,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-92
+2024-11-13 20:48:01,455 INFO o.a.j.r.Summariser: summary +     70 in 00:00:28 =    2.5/s Avg:     9 Min:     4 Max:    45 Err:     0 (0.00%) Active: 1 Started: 92 Finished: 91
+2024-11-13 20:48:01,456 INFO o.a.j.r.Summariser: summary =    911 in 00:06:04 =    2.5/s Avg:    11 Min:     3 Max:   173 Err:     0 (0.00%)
+2024-11-13 20:48:01,540 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-92
+2024-11-13 20:48:01,540 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-92
+2024-11-13 20:48:05,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-93
+2024-11-13 20:48:05,524 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-93
+2024-11-13 20:48:05,524 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-93
+2024-11-13 20:48:09,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-94
+2024-11-13 20:48:09,525 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-94
+2024-11-13 20:48:09,526 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-94
+2024-11-13 20:48:13,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-95
+2024-11-13 20:48:13,507 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-95
+2024-11-13 20:48:13,507 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-95
+2024-11-13 20:48:17,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-96
+2024-11-13 20:48:17,482 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-96
+2024-11-13 20:48:17,482 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-96
+2024-11-13 20:48:21,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-97
+2024-11-13 20:48:21,537 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-97
+2024-11-13 20:48:21,538 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-97
+2024-11-13 20:48:25,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-98
+2024-11-13 20:48:25,527 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-98
+2024-11-13 20:48:25,527 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-98
+2024-11-13 20:48:29,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-99
+2024-11-13 20:48:29,503 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-99
+2024-11-13 20:48:29,504 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-99
+2024-11-13 20:48:33,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-100
+2024-11-13 20:48:33,448 INFO o.a.j.r.Summariser: summary +     80 in 00:00:32 =    2.5/s Avg:     9 Min:     3 Max:    43 Err:     0 (0.00%) Active: 1 Started: 100 Finished: 99
+2024-11-13 20:48:33,449 INFO o.a.j.r.Summariser: summary =    991 in 00:06:36 =    2.5/s Avg:    11 Min:     3 Max:   173 Err:     0 (0.00%)
+2024-11-13 20:48:33,492 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-100
+2024-11-13 20:48:33,492 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-100
+2024-11-13 20:48:37,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-101
+2024-11-13 20:48:37,556 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-101
+2024-11-13 20:48:37,556 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-101
+2024-11-13 20:48:41,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-102
+2024-11-13 20:48:41,513 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-102
+2024-11-13 20:48:41,514 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-102
+2024-11-13 20:48:45,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-103
+2024-11-13 20:48:45,522 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-103
+2024-11-13 20:48:45,522 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-103
+2024-11-13 20:48:49,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-104
+2024-11-13 20:48:49,538 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-104
+2024-11-13 20:48:49,539 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-104
+2024-11-13 20:48:53,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-105
+2024-11-13 20:48:53,519 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-105
+2024-11-13 20:48:53,519 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-105
+2024-11-13 20:48:57,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-106
+2024-11-13 20:48:57,504 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-106
+2024-11-13 20:48:57,504 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-106
+2024-11-13 20:49:01,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-107
+2024-11-13 20:49:01,447 INFO o.a.j.r.Summariser: summary +     70 in 00:00:28 =    2.5/s Avg:     9 Min:     3 Max:    43 Err:     0 (0.00%) Active: 1 Started: 107 Finished: 106
+2024-11-13 20:49:01,448 INFO o.a.j.r.Summariser: summary =   1061 in 00:07:04 =    2.5/s Avg:    11 Min:     3 Max:   173 Err:     0 (0.00%)
+2024-11-13 20:49:01,499 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-107
+2024-11-13 20:49:01,499 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-107
+2024-11-13 20:49:05,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-108
+2024-11-13 20:49:05,522 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-108
+2024-11-13 20:49:05,522 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-108
+2024-11-13 20:49:09,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-109
+2024-11-13 20:49:09,509 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-109
+2024-11-13 20:49:09,509 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-109
+2024-11-13 20:49:13,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-110
+2024-11-13 20:49:13,513 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-110
+2024-11-13 20:49:13,513 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-110
+2024-11-13 20:49:17,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-111
+2024-11-13 20:49:17,509 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-111
+2024-11-13 20:49:17,510 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-111
+2024-11-13 20:49:21,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-112
+2024-11-13 20:49:21,511 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-112
+2024-11-13 20:49:21,511 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-112
+2024-11-13 20:49:25,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-113
+2024-11-13 20:49:25,508 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-113
+2024-11-13 20:49:25,509 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-113
+2024-11-13 20:49:29,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-114
+2024-11-13 20:49:29,534 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-114
+2024-11-13 20:49:29,534 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-114
+2024-11-13 20:49:33,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-115
+2024-11-13 20:49:33,461 INFO o.a.j.r.Summariser: summary +     80 in 00:00:32 =    2.5/s Avg:     9 Min:     3 Max:    44 Err:     0 (0.00%) Active: 1 Started: 115 Finished: 114
+2024-11-13 20:49:33,463 INFO o.a.j.r.Summariser: summary =   1141 in 00:07:36 =    2.5/s Avg:    11 Min:     3 Max:   173 Err:     0 (0.00%)
+2024-11-13 20:49:33,531 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-115
+2024-11-13 20:49:33,531 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-115
+2024-11-13 20:49:37,422 INFO o.a.j.t.JMeterThread: Thread started: writers 1-116
+2024-11-13 20:49:37,509 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-116
+2024-11-13 20:49:37,509 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-116
+2024-11-13 20:49:41,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-117
+2024-11-13 20:49:41,508 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-117
+2024-11-13 20:49:41,508 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-117
+2024-11-13 20:49:45,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-118
+2024-11-13 20:49:45,504 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-118
+2024-11-13 20:49:45,505 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-118
+2024-11-13 20:49:49,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-119
+2024-11-13 20:49:49,514 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-119
+2024-11-13 20:49:49,514 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-119
+2024-11-13 20:49:53,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-120
+2024-11-13 20:49:53,527 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-120
+2024-11-13 20:49:53,527 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-120
+2024-11-13 20:49:57,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-121
+2024-11-13 20:49:57,520 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-121
+2024-11-13 20:49:57,521 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-121
+2024-11-13 20:50:01,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-122
+2024-11-13 20:50:01,456 INFO o.a.j.r.Summariser: summary +     70 in 00:00:28 =    2.5/s Avg:     9 Min:     4 Max:    37 Err:     0 (0.00%) Active: 1 Started: 122 Finished: 121
+2024-11-13 20:50:01,457 INFO o.a.j.r.Summariser: summary =   1211 in 00:08:04 =    2.5/s Avg:    11 Min:     3 Max:   173 Err:     0 (0.00%)
+2024-11-13 20:50:01,519 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-122
+2024-11-13 20:50:01,519 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-122
+2024-11-13 20:50:05,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-123
+2024-11-13 20:50:05,511 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-123
+2024-11-13 20:50:05,511 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-123
+2024-11-13 20:50:09,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-124
+2024-11-13 20:50:09,515 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-124
+2024-11-13 20:50:09,516 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-124
+2024-11-13 20:50:13,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-125
+2024-11-13 20:50:13,485 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-125
+2024-11-13 20:50:13,485 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-125
+2024-11-13 20:50:17,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-126
+2024-11-13 20:50:17,523 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-126
+2024-11-13 20:50:17,523 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-126
+2024-11-13 20:50:21,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-127
+2024-11-13 20:50:21,480 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-127
+2024-11-13 20:50:21,480 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-127
+2024-11-13 20:50:25,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-128
+2024-11-13 20:50:25,532 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-128
+2024-11-13 20:50:25,533 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-128
+2024-11-13 20:50:29,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-129
+2024-11-13 20:50:29,552 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-129
+2024-11-13 20:50:29,552 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-129
+2024-11-13 20:50:33,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-130
+2024-11-13 20:50:33,450 INFO o.a.j.r.Summariser: summary +     80 in 00:00:32 =    2.5/s Avg:     8 Min:     3 Max:    50 Err:     0 (0.00%) Active: 1 Started: 130 Finished: 129
+2024-11-13 20:50:33,451 INFO o.a.j.r.Summariser: summary =   1291 in 00:08:36 =    2.5/s Avg:    11 Min:     3 Max:   173 Err:     0 (0.00%)
+2024-11-13 20:50:33,549 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-130
+2024-11-13 20:50:33,550 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-130
+2024-11-13 20:50:37,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-131
+2024-11-13 20:50:37,514 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-131
+2024-11-13 20:50:37,514 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-131
+2024-11-13 20:50:41,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-132
+2024-11-13 20:50:41,523 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-132
+2024-11-13 20:50:41,523 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-132
+2024-11-13 20:50:45,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-133
+2024-11-13 20:50:45,528 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-133
+2024-11-13 20:50:45,528 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-133
+2024-11-13 20:50:49,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-134
+2024-11-13 20:50:49,535 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-134
+2024-11-13 20:50:49,535 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-134
+2024-11-13 20:50:53,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-135
+2024-11-13 20:50:53,500 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-135
+2024-11-13 20:50:53,500 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-135
+2024-11-13 20:50:57,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-136
+2024-11-13 20:50:57,504 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-136
+2024-11-13 20:50:57,504 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-136
+2024-11-13 20:51:01,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-137
+2024-11-13 20:51:01,458 INFO o.a.j.r.Summariser: summary +     70 in 00:00:28 =    2.5/s Avg:     9 Min:     3 Max:    39 Err:     0 (0.00%) Active: 1 Started: 137 Finished: 136
+2024-11-13 20:51:01,459 INFO o.a.j.r.Summariser: summary =   1361 in 00:09:04 =    2.5/s Avg:    10 Min:     3 Max:   173 Err:     0 (0.00%)
+2024-11-13 20:51:01,516 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-137
+2024-11-13 20:51:01,516 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-137
+2024-11-13 20:51:05,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-138
+2024-11-13 20:51:05,508 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-138
+2024-11-13 20:51:05,508 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-138
+2024-11-13 20:51:09,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-139
+2024-11-13 20:51:09,526 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-139
+2024-11-13 20:51:09,527 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-139
+2024-11-13 20:51:13,421 INFO o.a.j.t.JMeterThread: Thread started: writers 1-140
+2024-11-13 20:51:13,486 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-140
+2024-11-13 20:51:13,486 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-140
+2024-11-13 20:51:17,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-141
+2024-11-13 20:51:17,517 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-141
+2024-11-13 20:51:17,518 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-141
+2024-11-13 20:51:21,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-142
+2024-11-13 20:51:21,529 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-142
+2024-11-13 20:51:21,529 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-142
+2024-11-13 20:51:25,423 INFO o.a.j.t.JMeterThread: Thread started: writers 1-143
+2024-11-13 20:51:25,515 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-143
+2024-11-13 20:51:25,515 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-143
+2024-11-13 20:51:29,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-144
+2024-11-13 20:51:29,506 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-144
+2024-11-13 20:51:29,507 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-144
+2024-11-13 20:51:33,424 INFO o.a.j.t.JMeterThread: Thread started: writers 1-145
+2024-11-13 20:51:33,442 INFO o.a.j.r.Summariser: summary +     80 in 00:00:32 =    2.5/s Avg:     8 Min:     3 Max:    37 Err:     0 (0.00%) Active: 1 Started: 145 Finished: 144
+2024-11-13 20:51:33,442 INFO o.a.j.r.Summariser: summary =   1441 in 00:09:36 =    2.5/s Avg:    10 Min:     3 Max:   173 Err:     0 (0.00%)
+2024-11-13 20:51:33,479 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-145
+2024-11-13 20:51:33,479 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-145
+2024-11-13 20:51:37,424 INFO o.a.j.t.JMeterThread: Thread started: writers 1-146
+2024-11-13 20:51:37,548 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-146
+2024-11-13 20:51:37,549 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-146
+2024-11-13 20:51:41,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-147
+2024-11-13 20:51:41,537 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-147
+2024-11-13 20:51:41,538 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-147
+2024-11-13 20:51:45,419 INFO o.a.j.t.JMeterThread: Thread started: writers 1-148
+2024-11-13 20:51:45,516 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-148
+2024-11-13 20:51:45,516 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-148
+2024-11-13 20:51:49,420 INFO o.a.j.t.JMeterThread: Thread started: writers 1-149
+2024-11-13 20:51:49,540 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-149
+2024-11-13 20:51:49,540 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-149
+2024-11-13 20:51:53,418 INFO o.a.j.t.JMeterThread: Thread started: writers 1-150
+2024-11-13 20:51:53,504 INFO o.a.j.t.JMeterThread: Thread is done: writers 1-150
+2024-11-13 20:51:53,504 INFO o.a.j.t.JMeterThread: Thread finished: writers 1-150
+2024-11-13 20:51:53,512 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-11-13 20:51:53,528 INFO o.a.j.v.b.BackendListener: Worker ended
+2024-11-13 20:51:53,529 INFO o.a.j.v.b.i.InfluxdbBackendListenerClient: Sending last metrics to InfluxDB
+2024-11-13 20:51:53,529 INFO o.a.j.v.b.i.HttpMetricsSender: Destroying 
+2024-11-13 20:51:53,539 INFO o.a.j.r.Summariser: summary +     59 in 00:00:20 =    2.9/s Avg:     9 Min:     2 Max:    87 Err:     0 (0.00%) Active: 0 Started: 150 Finished: 150
+2024-11-13 20:51:53,539 INFO o.a.j.r.Summariser: summary =   1500 in 00:09:56 =    2.5/s Avg:    10 Min:     2 Max:   173 Err:     0 (0.00%)
+2024-11-13 20:51:53,539 INFO o.a.j.JMeter: Generating Dashboard
+2024-11-13 20:51:53,539 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2024-11-13 20:51:53,548 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2024-11-13 20:51:53,626 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2024-11-13 20:51:53,626 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2024-11-13 20:51:53,629 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2024-11-13 20:51:53,629 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2024-11-13 20:51:53,629 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2024-11-13 20:51:53,631 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2024-11-13 20:51:53,631 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2024-11-13 20:51:53,631 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2024-11-13 20:51:53,647 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2024-11-13 20:51:53,648 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2024-11-13 20:51:53,648 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2024-11-13 20:51:53,648 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2024-11-13 20:51:53,655 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2024-11-13 20:51:53,656 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 10500 samples
+2024-11-13 20:51:53,656 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2024-11-13 20:51:53,656 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2024-11-13 20:51:53,656 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2024-11-13 20:51:53,656 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2024-11-13 20:51:53,656 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2024-11-13 20:51:53,656 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2024-11-13 20:51:53,656 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2024-11-13 20:51:53,657 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2024-11-13 20:51:53,657 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2024-11-13 20:51:53,657 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2024-11-13 20:51:53,657 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 22500 samples
+2024-11-13 20:51:53,657 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 4500 samples
+2024-11-13 20:51:53,657 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 1500 samples
+2024-11-13 20:51:53,657 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 1500 samples produced in 92ms on channel 0
+2024-11-13 20:51:53,657 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2024-11-13 20:51:53,710 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2024-11-13 20:51:53,710 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2024-11-13 20:51:53,710 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2024-11-13 20:51:53,710 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2024-11-13 20:51:53,710 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /Users/levvolkov/Documents/Performance_testingQA79/Load_testing_report/jmeter/report_output/statistics.json
+2024-11-13 20:51:53,733 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2024-11-13 20:51:53,735 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /Users/levvolkov/Documents/Performance_testingQA79/Load_testing_report/jmeter/report_output
+2024-11-13 20:51:53,790 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /Users/levvolkov/Documents/Performance_testingQA79/Load_testing_report/jmeter/report_output, creating folder structure
+2024-11-13 20:51:53,792 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/Applications/apache-jmeter-5.6.3/bin/report-template' to '/Users/levvolkov/Documents/Performance_testingQA79/Load_testing_report/jmeter/report_output', got message: /Users/levvolkov/Documents/Performance_testingQA79/Load_testing_report/jmeter/report_output, found non empty folder with following content [/Users/levvolkov/Documents/Performance_testingQA79/Load_testing_report/jmeter/report_output/statistics.json], will be ignored
+2024-11-13 20:51:54,018 INFO o.a.j.JMeter: Dashboard generated
